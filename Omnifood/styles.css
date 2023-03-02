@@ -1,0 +1,32 @@
+html {
+    /*
+    default font size is 16px
+    62.5% = 10px => 1rem = 10px 
+    */
+    font-size: 100%;
+}
+
+body {
+    font-family: "Rubik", sans-serif;
+    line-height: 1;
+    /* font-weight: 400;
+    color: #555; */
+}
+
+.my-bg-primary {
+    background-color: #fdf2e9;
+}
+
+.my-text-brand-color {
+    color: #cf711f;
+    /* #e67e22 */
+}
+
+.my-bg-brand-color {
+    background-color: #e67e22;
+}
+
+.navigation-logo {
+    width: auto;
+    height: 1.6rem;
+}

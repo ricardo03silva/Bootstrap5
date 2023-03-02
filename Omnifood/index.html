@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- FONTS -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+        <!-- STYLES -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="styles.css" />
+
+        <title>OmniFood</title>
+    </head>
+    <body>
+        <header class="navbar navbar-expand-lg my-bg-primary py-4 px-4">
+            <!-- add class: fixed-top to fix navbar at the top-->
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="img/omnifood-logo.png" alt="Logo" class="d-inline-block align-text-top navigation-logo" />
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarContent">
+                    <div class="navbar-nav ms-auto gap-4 align-items-center">
+                        <a class="nav-link fw-bold" href="#">How it works</a>
+                        <a class="nav-link fw-bold" href="#">Meals</a>
+                        <a class="nav-link fw-bold" href="#">Testimonials</a>
+                        <a class="nav-link fw-bold" href="#">Pricing</a>
+                        <button class="btn my-bg-brand-color fw-bold text-white">Try for free</button>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <section class="hero-section my-bg-primary py-5">
+                <div class="container">
+                    <div class="d-flex justify-content-center align-items-center">
+                        <!-- col left -->
+                        <div class="hero-info me-5 pt-3">
+                            <h1 class="fw-bolder mb-5">A healthy meal delivered to your door, every single day</h1>
+                            <p class="h4 fw-lighter mb-5">The smart 365-days-per-year food subscription that will make you eat healthy again. Tailored to your personal tastes and nutritional needs.</p>
+
+                            <button type="button" class="btn btn-lg my-bg-brand-color fw-bold text-white me-3 px-4">Start eating well</button>
+                            <button type="button" class="btn btn-lg bg-white fw-bold px-4">Learn More &darr;</button>
+
+                            <div class="hero-customers d-flex mt-5 gap-4">
+                                <div class="customers-img">
+                                    <p>images</p>
+                                </div>
+                                <p><span>250,000+</span> meals delivered last year!</p>
+                            </div>
+                        </div>
+
+                        <!-- col right -->
+                        <div class="hero-image">
+                            <img src="img/hero.png" class="img-fluid" alt="client eating in a table" />
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>this will be the footer</p>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
