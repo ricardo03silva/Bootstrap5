@@ -8,9 +8,7 @@ html {
 
 body {
     font-family: "Rubik", sans-serif;
-    line-height: 1;
-    /* font-weight: 400;
-    color: #555; */
+    padding-top: 4.5rem;
 }
 
 .my-bg-primary {
@@ -19,7 +17,6 @@ body {
 
 .my-text-brand-color {
     color: #cf711f;
-    /* #e67e22 */
 }
 
 .my-bg-brand-color {
@@ -29,4 +26,9 @@ body {
 .navigation-logo {
     width: auto;
     height: 1.6rem;
+}
+
+.hero-customers-img {
+    height: 40px;
+    width: auto;
 }
