@@ -16,7 +16,7 @@
         <title>OmniFood</title>
     </head>
     <body>
-        <header class="navbar navbar-expand-lg fixed-top my-bg-primary py-4 px-4">
+        <nav class="navbar navbar-expand-lg fixed-top my-bg-primary py-3 px-4" id="main-navBar">
             <!-- add class: fixed-top to fix navbar at the top-->
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
@@ -28,7 +28,7 @@
 
                 <div class="collapse navbar-collapse" id="navbarContent">
                     <div class="navbar-nav ms-auto gap-4 align-items-center">
-                        <a class="nav-link fw-bold" href="#">How it works</a>
+                        <a class="nav-link fw-bold" href="#how-it-works">How it works</a>
                         <a class="nav-link fw-bold" href="#">Meals</a>
                         <a class="nav-link fw-bold" href="#">Testimonials</a>
                         <a class="nav-link fw-bold" href="#">Pricing</a>
@@ -36,10 +36,10 @@
                     </div>
                 </div>
             </div>
-        </header>
+        </nav>
 
         <main>
-            <section class="hero-section my-bg-primary py-5">
+            <section class="section-hero my-bg-primary py-5 mb-3">
                 <div class="container">
                     <div class="d-flex justify-content-center align-items-center">
                         <!-- col left -->
@@ -52,14 +52,17 @@
 
                             <div class="hero-customers mt-5 gap-4 d-flex justify-content-start align-items-center">
                                 <div class="customers-img d-flex">
-                                    <img src="img/customers/customer-1.jpg" class="rounded-circle hero-customers-img" alt="">
-                                    <img src="img/customers/customer-2.jpg" class="rounded-circle border-start border-4 border-white hero-customers-img" alt="">
-                                    <img src="img/customers/customer-3.jpg" class="rounded-circle border-start border-4 border-white hero-customers-img" alt="">
-                                    <img src="img/customers/customer-4.jpg" class="rounded-circle border-start border-4 border-white hero-customers-img" alt="">
-                                    <img src="img/customers/customer-5.jpg" class="rounded-circle border-start border-4 border-white hero-customers-img" alt="">
-                                    <img src="img/customers/customer-6.jpg" class="rounded-circle border-start border-4 border-white hero-customers-img" alt="">
+                                    <img src="img/customers/customer-1.jpg" class="rounded-circle hero-customers-img" alt="" />
+                                    <img src="img/customers/customer-2.jpg" class="rounded-circle border-start border-4 border-white hero-customers-img" alt="" />
+                                    <img src="img/customers/customer-3.jpg" class="rounded-circle border-start border-4 border-white hero-customers-img" alt="" />
+                                    <img src="img/customers/customer-4.jpg" class="rounded-circle border-start border-4 border-white hero-customers-img" alt="" />
+                                    <img src="img/customers/customer-5.jpg" class="rounded-circle border-start border-4 border-white hero-customers-img" alt="" />
+                                    <img src="img/customers/customer-6.jpg" class="rounded-circle border-start border-4 border-white hero-customers-img" alt="" />
                                 </div>
-                                <p class="d-inline-block"><span class="fw-bolder my-text-brand-color">250,000+</span> meals delivered last year!</p>
+                                <p class="d-inline-block">
+                                    <span class="fw-bolder my-text-primary-color">250,000+</span>
+                                    meals delivered last year!
+                                </p>
                             </div>
                         </div>
 
@@ -70,12 +73,224 @@
                     </div>
                 </div>
             </section>
+
+            <section class="section-featured-in py-5 mb-3">
+                <div class="container text-center">
+                    <h2 class="fs-6 text-secondary text-uppercase mb-3 fw-lighter">As Featured In</h2>
+                    <div class="row align-items-center justify-content-center column-gap-4">
+                        <div class="col-2">
+                            <img class="img-fluid opacity-50 partners-logo" src="img/logos/business-insider.png" alt="partners logo" />
+                        </div>
+                        <div class="col-2">
+                            <img class="img-fluid opacity-50 partners-logo" src="img/logos/forbes.png" alt="partners logo" />
+                        </div>
+                        <div class="col-2">
+                            <img class="img-fluid opacity-50 partners-logo" src="img/logos/techcrunch.png" alt="partners logo" />
+                        </div>
+                        <div class="col-2">
+                            <img class="img-fluid opacity-50 partners-logo" src="img/logos/the-new-york-times.png" alt="partners logo" />
+                        </div>
+                        <div class="col-2">
+                            <img class="img-fluid opacity-50 partners-logo" src="img/logos/usa-today.png" alt="partners logo" />
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section-how-it-works py-5 mb-3">
+                <div class="container text-start">
+                    <p class="fw-lighter d-inline-block mb-3 fw-bolder my-text-primary-color text-uppercase">How it works</p>
+                    <h2 class="mb-5 fs-1 fw-bolder">Your daily dose of health in 3 simple steps</h2>
+                    <div class="row row-gap-5 align-items-center">
+                        <div class="col-6 p-3">
+                            <span class="text-body-tertiary how-numbers">01</span>
+                            <h3 class="fw-bolder mb-4">Tell us what you like (and what not)</h3>
+                            <p class="lh-lg fw-lighter">
+                                Never again waste time thinking about what to eat! Omnifood AI will create a 100% personalized weekly meal plan just for you. It makes sure you get all the nutrients and vitamins you need, no matter what diet you
+                                follow!
+                            </p>
+                        </div>
+                        <div class="col-6 p-3 text-center how-img-box">
+                            <img class="img-fluid app-img" src="img/app/app-screen-1.png" alt="app image and how to use it" />
+                        </div>
+                        <div class="col-6 p-3 text-center how-img-box">
+                            <img class="img-fluid app-img" src="img/app/app-screen-2.png" alt="app image and how to use it" />
+                        </div>
+                        <div class="col-6 p-3">
+                            <span class="text-body-tertiary how-numbers">02</span>
+                            <h3 class="fw-bolder mb-4">Approve your weekly meal plan</h3>
+                            <p class="lh-lg fw-lighter">Once per week, approve the meal plan generated for you by Omnifood AI. You can change ingredients, swap entire meals, or even add your own recipes.</p>
+                        </div>
+                        <div class="col-6 p-3">
+                            <span class="text-body-tertiary how-numbers">03</span>
+                            <h3 class="fw-bolder mb-4">Receive meals at convenient time</h3>
+                            <p class="lh-lg fw-lighter">Best chefs in town will cook your selected meal every day, and we will deliver it to your door whenever works best for you. You can change delivery schedule and address daily!</p>
+                        </div>
+                        <div class="col-6 p-3 text-center how-img-box">
+                            <img class="img-fluid app-img" src="img/app/app-screen-3.png" alt="app image and how to use it" />
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section-meals py-5 mb-3">
+                <div class="container py-5 text-center">
+                    <p class="fw-lighter d-inline-block mb-3 fw-bolder my-text-primary-color text-uppercase">Meals</p>
+                    <h2 class="mb-5 fs-1 fw-bolder">Omnifood AI chooses from 5000+ recipes</h2>
+                    <div class="row">
+                        <div class="col-4">
+                            <div class="card border-light rounded-4 shadow" style="width: 20rem">
+                                <img src="img/meals/meal-1.jpg" class="card-img-top rounded-top-4 img-fluid" alt="vegetarian meal" />
+                                <div class="card-body text-start">
+                                    <div class="justify-content-center mb-2">
+                                        <span class="me-2 px-2 rounded-3 bg-success text-center fw-bold">Vegetarian</span>
+                                    </div>
+                                    <h5 class="card-title mb-4 fw-bold">Japanese Gyozas</h5>
+                                    <ul class="list-group list-group-flush pb-3">
+                                        <li class="list-group-item">
+                                            <ion-icon name="flame-outline"></ion-icon>
+                                            <span class="list-text ms-3"><strong>650</strong> calories</span>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <ion-icon name="restaurant-outline"></ion-icon>
+                                            <span class="list-text ms-3">NutriScore &#174; <strong>74</strong></span>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <ion-icon name="star-outline"></ion-icon>
+                                            <span class="list-text ms-3"><strong>4.9</strong> rating (537)</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="card border-light rounded-4 shadow" style="width: 20rem">
+                                <img src="img/meals/meal-2.jpg" class="card-img-top rounded-top-4 img-fluid" alt="vegetarian meal" />
+                                <div class="card-body text-start">
+                                    <div class="justify-content-center mb-2">
+                                        <span class="me-2 px-2 rounded-3 bg-warning text-center fw-bold">Vegan</span>
+                                        <span class="me-2 px-2 rounded-3 bg-info text-center fw-bold">Paleo</span>
+                                    </div>
+                                    <h5 class="card-title mb-4 fw-bold">Avocado Salad</h5>
+                                    <ul class="list-group list-group-flush pb-3">
+                                        <li class="list-group-item">
+                                            <ion-icon name="flame-outline"></ion-icon>
+                                            <span class="list-text ms-3"><strong>400</strong> calories</span>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <ion-icon name="restaurant-outline"></ion-icon>
+                                            <span class="list-text ms-3">NutriScore &#174; <strong>92</strong></span>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <ion-icon name="star-outline"></ion-icon>
+                                            <span class="list-text ms-3"><strong>4.8</strong> rating (441)</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 text-start">
+                            <h3 class="fw-bolder mb-4">Works with any diet:</h3>
+                            <ul class="meals-info">
+                                <li class="mb-3 fs-5 fw-lighter">
+                                    <ion-icon name="checkmark-outline"></ion-icon>
+                                    Vegetarian
+                                </li>
+                                <li class="mb-3 fs-5 fw-lighter">
+                                    <ion-icon name="checkmark-outline"></ion-icon>
+                                    Vegan
+                                </li>
+                                <li class="mb-3 fs-5 fw-lighter">
+                                    <ion-icon name="checkmark-outline"></ion-icon>
+                                    Pescatarian
+                                </li>
+                                <li class="mb-3 fs-5 fw-lighter">
+                                    <ion-icon name="checkmark-outline"></ion-icon>
+                                    Gluten-free
+                                </li>
+                                <li class="mb-3 fs-5 fw-lighter">
+                                    <ion-icon name="checkmark-outline"></ion-icon>
+                                    Lactose-free
+                                </li>
+                                <li class="mb-3 fs-5 fw-lighter">
+                                    <ion-icon name="checkmark-outline"></ion-icon>
+                                    Keto
+                                </li>
+                                <li class="mb-3 fs-5 fw-lighter">
+                                    <ion-icon name="checkmark-outline"></ion-icon>
+                                    Paleo
+                                </li>
+                                <li class="mb-3 fs-5 fw-lighter">
+                                    <ion-icon name="checkmark-outline"></ion-icon>
+                                    Low FODMAP
+                                </li>
+                                <li class="mb-3 fs-5 fw-lighter">
+                                    <ion-icon name="checkmark-outline"></ion-icon>
+                                    Kid-friendly
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="testimonials my-bg-primary py-5 mb-3">
+                <div class="container-fluid">
+                    <div class="row text-center">
+                        <div class="col-6">some text</div>
+                        <div class="col-6">
+                            <div class="row row-gap-3">
+                                <div class="col-4">
+                                    <img class="img-fluid" src="img/gallery/gallery-1.jpg" alt="gallery image of food" />
+                                </div>
+                                <div class="col-4">
+                                    <img class="img-fluid" src="img/gallery/gallery-2.jpg" alt="gallery image of food" />
+                                </div>
+                                <div class="col-4">
+                                    <img class="img-fluid" src="img/gallery/gallery-3.jpg" alt="gallery image of food" />
+                                </div>
+
+                                <div class="col-4">
+                                    <img class="img-fluid" src="img/gallery/gallery-4.jpg" alt="gallery image of food" />
+                                </div>
+                                <div class="col-4">
+                                    <img class="img-fluid" src="img/gallery/gallery-5.jpg" alt="gallery image of food" />
+                                </div>
+                                <div class="col-4">
+                                    <img class="img-fluid" src="img/gallery/gallery-6.jpg" alt="gallery image of food" />
+                                </div>
+
+                                <div class="col-4">
+                                    <img class="img-fluid" src="img/gallery/gallery-7.jpg" alt="gallery image of food" />
+                                </div>
+                                <div class="col-4">
+                                    <img class="img-fluid" src="img/gallery/gallery-8.jpg" alt="gallery image of food" />
+                                </div>
+                                <div class="col-4">
+                                    <img class="img-fluid" src="img/gallery/gallery-9.jpg" alt="gallery image of food" />
+                                </div>
+
+                                <div class="col-4">
+                                    <img class="img-fluid" src="img/gallery/gallery-10.jpg" alt="gallery image of food" />
+                                </div>
+                                <div class="col-4">
+                                    <img class="img-fluid" src="img/gallery/gallery-11.jpg" alt="gallery image of food" />
+                                </div>
+                                <div class="col-4">
+                                    <img class="img-fluid" src="img/gallery/gallery-12.jpg" alt="gallery image of food" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </main>
 
-        <footer>
+        <footer class="py-5">
             <p>this will be the footer</p>
         </footer>
 
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
     </body>

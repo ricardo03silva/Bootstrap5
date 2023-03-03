@@ -15,14 +15,29 @@ body {
     background-color: #fdf2e9;
 }
 
-.my-text-brand-color {
-    color: #cf711f;
-}
-
 .my-bg-brand-color {
     background-color: #e67e22;
 }
 
+.my-text-primary-color {
+    color: #cf711f;
+}
+
+ion-icon {
+    color: #cf711f;
+}
+
+/* FONT SIZING */
+.how-numbers {
+    font-size: 5rem;
+}
+
+/* LIST */
+.meals-info {
+    list-style: none;
+}
+
+/* IMAGES */
 .navigation-logo {
     width: auto;
     height: 1.6rem;
@@ -31,4 +46,60 @@ body {
 .hero-customers-img {
     height: 40px;
     width: auto;
+}
+
+.partners-logo {
+    filter: brightness(0);
+    height: 2rem;
+    width: auto;
+}
+
+.app-img {
+    width: 12rem;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* SHADOWS */
+.how-img-box {
+    position: relative;
+}
+
+.how-img-box::before,
+.how-img-box::after {
+    content: "";
+    display: block;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    z-index: -1;
+    width: 60%;
+    padding-bottom: 60%;
+    background-color: #fdf2e9;
+}
+
+.how-img-box::before {
+    z-index: -1;
+    width: 60%;
+    padding-bottom: 60%;
+    background-color: #fdf2e9;
+}
+
+.how-img-box::after {
+    z-index: -1;
+    width: 45%;
+    padding-bottom: 45%;
+    background-color: #fae5d3;
 }
