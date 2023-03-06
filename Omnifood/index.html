@@ -41,9 +41,8 @@
         <main>
             <section class="section-hero my-bg-primary py-5 mb-3">
                 <div class="container">
-                    <div class="d-flex justify-content-center align-items-center">
-                        <!-- col left -->
-                        <div class="hero-info me-5 pt-3">
+                    <div class="row g-5 justify-content-center align-items-center">
+                        <div class="col-sm-12 col-md-12 col-lg-6 hero-info order-sm-1 order-md-1 order-lg-0">
                             <h1 class="fw-bolder mb-5 lh-small fs-1">A healthy meal delivered to your door, every single day</h1>
                             <p class="h4 fw-lighter mb-5 lh-base">The smart 365-days-per-year food subscription that will make you eat healthy again. Tailored to your personal tastes and nutritional needs.</p>
 
@@ -66,8 +65,7 @@
                             </div>
                         </div>
 
-                        <!-- col right -->
-                        <div class="hero-image">
+                        <div class="col-sm-12 col-md-12 col-lg-6 order-sm-0 order-md-0 order-lg-1">
                             <img src="img/hero.png" class="img-fluid" alt="client eating in a table" />
                         </div>
                     </div>
@@ -77,20 +75,20 @@
             <section class="section-featured-in py-5 mb-3">
                 <div class="container text-center">
                     <h2 class="fs-6 text-secondary text-uppercase mb-3 fw-lighter">As Featured In</h2>
-                    <div class="row align-items-center justify-content-center column-gap-4">
-                        <div class="col-2">
+                    <div class="row align-items-center justify-content-center g-4">
+                        <div class="col-sm-6 col-md-4 col-lg-2">
                             <img class="img-fluid opacity-50 partners-logo" src="img/logos/business-insider.png" alt="partners logo" />
                         </div>
-                        <div class="col-2">
+                        <div class="col-sm-6 col-md-4 col-lg-2">
                             <img class="img-fluid opacity-50 partners-logo" src="img/logos/forbes.png" alt="partners logo" />
                         </div>
-                        <div class="col-2">
+                        <div class="col-sm-6 col-md-4 col-lg-2">
                             <img class="img-fluid opacity-50 partners-logo" src="img/logos/techcrunch.png" alt="partners logo" />
                         </div>
-                        <div class="col-2">
+                        <div class="col-sm-6 col-md-4 col-lg-2">
                             <img class="img-fluid opacity-50 partners-logo" src="img/logos/the-new-york-times.png" alt="partners logo" />
                         </div>
-                        <div class="col-2">
+                        <div class="col-sm-6 col-md-4 col-lg-2">
                             <img class="img-fluid opacity-50 partners-logo" src="img/logos/usa-today.png" alt="partners logo" />
                         </div>
                     </div>
@@ -102,7 +100,7 @@
                     <p class="fw-lighter d-inline-block mb-3 fw-bolder my-text-primary-color text-uppercase">How it works</p>
                     <h2 class="mb-5 fs-1 fw-bolder">Your daily dose of health in 3 simple steps</h2>
                     <div class="row row-gap-5 align-items-center">
-                        <div class="col-6 p-3">
+                        <div class="col-sm-12 col-md-6 p-3 order-md-0 order-sm-0">
                             <span class="text-body-tertiary how-numbers">01</span>
                             <h3 class="fw-bolder mb-4">Tell us what you like (and what not)</h3>
                             <p class="lh-lg fw-lighter">
@@ -110,23 +108,25 @@
                                 follow!
                             </p>
                         </div>
-                        <div class="col-6 p-3 text-center how-img-box">
+                        <div class="col-sm-12 col-md-6 p-3 text-center how-img-box order-md-0 order-sm-1">
                             <img class="img-fluid app-img" src="img/app/app-screen-1.png" alt="app image and how to use it" />
                         </div>
-                        <div class="col-6 p-3 text-center how-img-box">
+
+                        <div class="col-sm-12 col-md-6 p-3 text-center how-img-box order-md-0 order-sm-3">
                             <img class="img-fluid app-img" src="img/app/app-screen-2.png" alt="app image and how to use it" />
                         </div>
-                        <div class="col-6 p-3">
+                        <div class="col-sm-12 col-md-6 p-3 order-md-0 order-sm-2">
                             <span class="text-body-tertiary how-numbers">02</span>
                             <h3 class="fw-bolder mb-4">Approve your weekly meal plan</h3>
                             <p class="lh-lg fw-lighter">Once per week, approve the meal plan generated for you by Omnifood AI. You can change ingredients, swap entire meals, or even add your own recipes.</p>
                         </div>
-                        <div class="col-6 p-3">
+
+                        <div class="col-sm-12 col-md-6 p-3 order-md-0 order-sm-4">
                             <span class="text-body-tertiary how-numbers">03</span>
                             <h3 class="fw-bolder mb-4">Receive meals at convenient time</h3>
                             <p class="lh-lg fw-lighter">Best chefs in town will cook your selected meal every day, and we will deliver it to your door whenever works best for you. You can change delivery schedule and address daily!</p>
                         </div>
-                        <div class="col-6 p-3 text-center how-img-box">
+                        <div class="col-sm-12 col-md-6 p-3 text-center how-img-box order-md-0 order-sm-5">
                             <img class="img-fluid app-img" src="img/app/app-screen-3.png" alt="app image and how to use it" />
                         </div>
                     </div>
@@ -137,9 +137,9 @@
                 <div class="container py-5 text-center">
                     <p class="fw-lighter d-inline-block mb-3 fw-bolder my-text-primary-color text-uppercase">Meals</p>
                     <h2 class="mb-5 fs-1 fw-bolder">Omnifood AI chooses from 5000+ recipes</h2>
-                    <div class="row">
-                        <div class="col-4">
-                            <div class="card border-light rounded-4 shadow" style="width: 20rem">
+                    <div class="row justify-content-center">
+                        <div class="col-sm-12 col-md-6 col-lg-4 mb-5">
+                            <div class="card border-light rounded-4 shadow">
                                 <img src="img/meals/meal-1.jpg" class="card-img-top rounded-top-4 img-fluid" alt="vegetarian meal" />
                                 <div class="card-body text-start">
                                     <div class="justify-content-center mb-2">
@@ -163,8 +163,8 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-4">
-                            <div class="card border-light rounded-4 shadow" style="width: 20rem">
+                        <div class="col-sm-12 col-md-6 col-lg-4 mb-5">
+                            <div class="card border-light rounded-4 shadow">
                                 <img src="img/meals/meal-2.jpg" class="card-img-top rounded-top-4 img-fluid" alt="vegetarian meal" />
                                 <div class="card-body text-start">
                                     <div class="justify-content-center mb-2">
@@ -189,7 +189,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-4 text-start">
+                        <div class="col-sm-12 col-lg-4 text-center mb-5">
                             <h3 class="fw-bolder mb-4">Works with any diet:</h3>
                             <ul class="meals-info">
                                 <li class="mb-3 fs-5 fw-lighter">
@@ -231,14 +231,40 @@
                             </ul>
                         </div>
                     </div>
+                    <a href="#" class="fw-lighter d-inline-block mt-5 fw-lighter my-text-primary-color">See all recipes →</a>
                 </div>
             </section>
 
-            <section class="testimonials my-bg-primary py-5 mb-3">
+            <section class="testimonials my-bg-primary py-5 mb-5">
                 <div class="container-fluid">
-                    <div class="row text-center">
-                        <div class="col-6">some text</div>
-                        <div class="col-6">
+                    <div class="row align-items-center">
+                        <div class="col-6 ps-5 order-lg-0">
+                            <p class="fw-lighter d-inline-block mb-3 fw-bolder my-text-primary-color text-uppercase">Testimonials</p>
+                            <h2 class="mb-5 fs-1 fw-bolder">Once you try it, you can't go back</h2>
+                            <div class="row py-3 px-3 row-gap-5">
+                                <figure class="col-6">
+                                    <img src="img/customers/dave.jpg" alt="ben profile pic" class="rounded-circle mb-3" height="75px" width="auto" />
+                                    <p class="fs-5 lh-base fw-lighter mb-4">Inexpensive, healthy and great-tasting meals, without even having to order manually! It feels truly magical.</p>
+                                    <p class="blockquote-footer fs-6">Dave Bryson</p>
+                                </figure>
+                                <figure class="col-6">
+                                    <img src="img/customers/ben.jpg" alt="ben profile pic" class="rounded-circle mb-3" height="75px" width="auto" />
+                                    <p class="fs-5 lh-base fw-lighter mb-4">The AI algorithm is crazy good, it chooses the right meals for me every time. It's amazing not to worry about food anymore!</p>
+                                    <p class="blockquote-footer fs-6">Ben Hadley</p>
+                                </figure>
+                                <figure class="col-6">
+                                    <img src="img/customers/steve.jpg" alt="ben profile pic" class="rounded-circle mb-3" height="75px" width="auto" />
+                                    <p class="fs-5 lh-base fw-lighter mb-4">Omnifood is a life saver! I just started a company, so there's no time for cooking. I couldn't live without my daily meals now!</p>
+                                    <p class="blockquote-footer fs-6">Steve Miller</p>
+                                </figure>
+                                <figure class="col-6">
+                                    <img src="img/customers/hannah.jpg" alt="ben profile pic" class="rounded-circle mb-3" height="75px" width="auto" />
+                                    <p class="fs-5 lh-base fw-lighter mb-4">I got Omnifood for the whole family, and it frees up so much time! Plus, everything is organic and vegan and without plastic.</p>
+                                    <p class="blockquote-footer fs-6">Hannah Smith</p>
+                                </figure>
+                            </div>
+                        </div>
+                        <div class="col-6 order-lg-0">
                             <div class="row row-gap-3">
                                 <div class="col-4">
                                     <img class="img-fluid" src="img/gallery/gallery-1.jpg" alt="gallery image of food" />
@@ -284,10 +310,103 @@
                     </div>
                 </div>
             </section>
+
+            <section class="call-to-action py-5 mb-5">
+                <div class="container">
+                    <div class="card my-bg-brand-color">
+                        <div class="row g-0 justify-content-center">
+                            <div class="col-md-8">
+                                <div class="card-body pt-5 px-5">
+                                    <h2 class="mb-4 fs-1 fw-bolder">Get your first meal for free</h2>
+                                    <p class="lh-lg fs-5 mb-4">Healthy, tasty and hassle-free meals are waiting for you. Start eating well today. You can cancel or pause anytime. And the first meal is on us!</p>
+                                    <form class="row g-3">
+                                        <div class="col-6">
+                                            <label for="inputEmail" class="form-label fw-bold">Email</label>
+                                            <input type="email" class="form-control" id="inputEmail" placeholder="me@example.com" />
+                                        </div>
+                                        <div class="col-6">
+                                            <label for="inputName" class="form-label fw-bold">Address</label>
+                                            <input type="text" class="form-control" id="inputName" placeholder="Your Full Name" />
+                                        </div>
+                                        <div class="col-6">
+                                            <label for="inputSelection" class="form-label fw-bold">Where did you hear from us?</label>
+                                            <select class="form-select" id="inputSelection" aria-label="Default select example">
+                                                <option selected>Choose an option</option>
+                                                <option value="1">Friends and family</option>
+                                                <option value="2">Instagram</option>
+                                                <option value="3">TV Advertising</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-6 align-self-end">
+                                            <button class="btn btn-lg w-100 h-100 btn-secondary" type="button">Sign Up Now</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <img src="img/eating.jpg" class="img-fluid rounded" alt="..." />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </main>
 
-        <footer class="py-5">
-            <p>this will be the footer</p>
+        <footer class="footer py-5">
+            <div class="container">
+                <div class="row px-5 me-5 g-4">
+                    <div class="col-3">
+                        <img src="img/omnifood-logo.png" class="mb-4" alt="brand omnifood-logo" height="20 px" />
+                        <div class="d-flex gap-3 mb-5">
+                            <a href="#">
+                                <ion-icon size="small" name="logo-instagram"></ion-icon>
+                            </a>
+                            <a href="#">
+                                <ion-icon size="small" name="logo-facebook"></ion-icon>
+                            </a>
+                            <a href="#">
+                                <ion-icon size="small" name="logo-twitter"></ion-icon>
+                            </a>
+                        </div>
+                        <p class="fs-6 text-secondary">Copyright © 2023 Omnifood</p>
+                    </div>
+                    <div class="col-9">
+                        <div class="row g-2">
+                            <div class="col-3">
+                                <p class="fw-bold d-inline-block fw-bolder text-body-secondary fs-5">Contact us</p>
+                                <p class="text-secondary">623 Harrison St., 2nd Floor, San Francisco, CA 94107</p>
+                                <p class="text-secondary">415-201-6370 hello@omnifood.com</p>
+                            </div>
+                            <div class="col-3">
+                                <p class="fw-bold d-inline-block fw-bolder text-body-secondary fs-5">Account</p>
+                                <ul class="list-unstyled">
+                                    <a href="#" class="text-decoration-none"><li class="mb-3 text-secondary">Create account</li></a>
+                                    <a href="#" class="text-decoration-none"><li class="mb-3 text-secondary">Sign in</li></a>
+                                    <a href="#" class="text-decoration-none"><li class="mb-3 text-secondary">iOS app</li></a>
+                                    <a href="#" class="text-decoration-none"><li class="mb-3 text-secondary">Android app</li></a>
+                                </ul>
+                            </div>
+                            <div class="col-3">
+                                <p class="fw-bold d-inline-block fw-bolder text-body-secondary fs-5">Company</p>
+                                <ul class="list-unstyled">
+                                    <a href="#" class="text-decoration-none"><li class="mb-3 text-secondary">About Omnifood</li></a>
+                                    <a href="#" class="text-decoration-none"><li class="mb-3 text-secondary">For Business</li></a>
+                                    <a href="#" class="text-decoration-none"><li class="mb-3 text-secondary">Cooking partners</li></a>
+                                    <a href="#" class="text-decoration-none"><li class="mb-3 text-secondary">Careers</li></a>
+                                </ul>
+                            </div>
+                            <div class="col-3">
+                                <p class="fw-bold d-inline-block fw-bolder text-body-secondary fs-5">Resources</p>
+                                <ul class="list-unstyled">
+                                    <a href="#" class="text-decoration-none"><li class="mb-3 text-secondary">Recipe directory</li></a>
+                                    <a href="#" class="text-decoration-none"><li class="mb-3 text-secondary">Help center</li></a>
+                                    <a href="#" class="text-decoration-none"><li class="mb-3 text-secondary">Privacy & terms</li></a>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </footer>
 
         <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
