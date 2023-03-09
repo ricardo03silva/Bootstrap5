@@ -17,7 +17,7 @@
         <!-- add fixed-top later-->
         <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm fixed-top">
             <div class="container">
-                <span class="navbar-brand mb-0 h1 text-secondary fw-bold">Blog Page</span>
+                <span class="navbar-brand mb-0 h1 text-secondary fw-bold">My Blog Page</span>
                 <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarContent">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -30,13 +30,13 @@
                             <a class="nav-link" href="#">Archive</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Post</a>
+                            <a class="nav-link" href="post.html">Post</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">FAQ's</a>
+                            <a class="nav-link" href="faqs.html">FAQ's</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Dropdown </a>
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> More </a>
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="#">Action</a></li>
                                 <li><a class="dropdown-item" href="#">Another action</a></li>
@@ -45,7 +45,7 @@
                     </ul>
                     <form class="d-flex gap-1 align-items-center" role="search">
                         <button class="btn btn-sm btn-outline-secondary" type="submit">
-                            Support Us
+                            Support Me
                             <i class="bi bi-piggy-bank ms-1"></i>
                         </button>
                     </form>
@@ -54,18 +54,19 @@
         </nav>
 
         <main>
-            <section class="section-banner banner mt-5 py-2">
+            <section class="section-banner banner my-5 py-2">
                 <div class="container-fluid text-center text-white py-5">
                     <p class="h1 fw-bold">My Blog Page</p>
                     <p class="fs-5 fw-light">Lorem, ipsum dolor sit amet consectetur adipisicing elit</p>
-                    <button type="button" class="btn btn-sm btn-outline-light fs-6">Support Us</button>
+                    <button type="button" class="btn btn-sm btn-outline-light fs-6">See all posts</button>
                 </div>
             </section>
 
-            <section class="section-main py-5">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-8">
+            <section class="section-main py-5 mb-5">
+                <div class="container-fluid">
+                    <div class="row px-3 g-4">
+                        <!-- Posts -->
+                        <div class="col-md-9">
                             <div class="row g-4">
                                 <div class="col-md-4">
                                     <div class="card">
@@ -73,7 +74,7 @@
                                         <div class="card-body">
                                             <h5 class="card-title">Card title</h5>
                                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                            <a href="#" class="btn btn-outline-secondary">Go somewhere</a>
+                                            <a href="#" class="btn btn-outline-secondary">See Post</a>
                                         </div>
                                     </div>
                                 </div>
@@ -83,7 +84,7 @@
                                         <div class="card-body">
                                             <h5 class="card-title">Card title</h5>
                                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                            <a href="#" class="btn btn-outline-secondary">Go somewhere</a>
+                                            <a href="#" class="btn btn-outline-secondary">See Post</a>
                                         </div>
                                     </div>
                                 </div>
@@ -93,7 +94,7 @@
                                         <div class="card-body">
                                             <h5 class="card-title">Card title</h5>
                                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                            <a href="#" class="btn btn-outline-secondary">Go somewhere</a>
+                                            <a href="#" class="btn btn-outline-secondary">See Post</a>
                                         </div>
                                     </div>
                                 </div>
@@ -103,7 +104,7 @@
                                         <div class="card-body">
                                             <h5 class="card-title">Card title</h5>
                                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                            <a href="#" class="btn btn-outline-secondary">Go somewhere</a>
+                                            <a href="#" class="btn btn-outline-secondary">See Post</a>
                                         </div>
                                     </div>
                                 </div>
@@ -113,7 +114,7 @@
                                         <div class="card-body">
                                             <h5 class="card-title">Card title</h5>
                                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                            <a href="#" class="btn btn-outline-secondary">Go somewhere</a>
+                                            <a href="#" class="btn btn-outline-secondary">See Post</a>
                                         </div>
                                     </div>
                                 </div>
@@ -123,54 +124,140 @@
                                         <div class="card-body">
                                             <h5 class="card-title">Card title</h5>
                                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                            <a href="#" class="btn btn-outline-secondary">Go somewhere</a>
+                                            <a href="#" class="btn btn-outline-secondary">See Post</a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
-                            <p class="h3 mb-3 fw-bold text-secondary">More About Me</p>
-                            <ul class="list-group">
-                                <li class="list-group-item d-flex">
-                                    <div class="col-md-4">
-                                        <img class="img-thumbnail rounded-circle" src="img/user.png" alt="default user image" />
-                                    </div>
-                                    <div class="col-md-8 align-self-center">
-                                        <p class="fs-6 fw-bold mb-0">Ricardo Silva</p>
-                                        <p class="fs-6 fw-light mb-0">22 years, from Portugal</p>
-                                        <p class="fs-6 fw-light mb-0">Engineer</p>
-                                    </div>
-                                </li>
-                            </ul>
-                            <ol class="list-group list-group-numbered">
-                                <li class="list-group-item d-flex justify-content-between align-items-start">
-                                    <div class="ms-2 me-auto">
-                                        <div class="fw-bold">Subheading</div>
-                                        Content for list item
-                                    </div>
-                                    <span class="badge bg-primary rounded-pill">14</span>
-                                </li>
-                                <li class="list-group-item d-flex justify-content-between align-items-start">
-                                    <div class="ms-2 me-auto">
-                                        <div class="fw-bold">Subheading</div>
-                                        Content for list item
-                                    </div>
-                                    <span class="badge bg-primary rounded-pill">14</span>
-                                </li>
-                                <li class="list-group-item d-flex justify-content-between align-items-start">
-                                    <div class="ms-2 me-auto">
-                                        <div class="fw-bold">Subheading</div>
-                                        Content for list item
-                                    </div>
-                                    <span class="badge bg-primary rounded-pill">14</span>
-                                </li>
-                            </ol>
+                        <!-- Aside -->
+                        <div class="col-md-3">
+                            <aside>
+                                <p class="h3 mb-3 fw-bold text-secondary">More About Me</p>
+
+                                <div class="about-me mb-5">
+                                    <ul class="list-group">
+                                        <li class="list-group-item d-flex align-items-center">
+                                            <div class="col-md-3 me-2">
+                                                <img class="img-thumbnail rounded-circle" src="img/user.png" alt="default user image" />
+                                            </div>
+                                            <div class="col-md-9 align-self-center">
+                                                <p class="fs-6 fw-bold mb-0">Ricardo Silva</p>
+                                                <p class="fs-6 fw-light mb-0">22 years, from Portugal</p>
+                                                <p class="fs-6 fw-light mb-0">Engineer</p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="trend-posts">
+                                    <p class="h4 mb-3 fw-bold text-secondary">Related Posts</p>
+                                    <ol class="list-group list-group-numbered">
+                                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                                            <div class="ms-2 me-auto">
+                                                <div class="fw-bold">Example post title</div>
+                                                <a href="#" class="text-decoration-none text-secondary">See post</a>
+                                            </div>
+                                            <div class="d-flex badge bg-success rounded-pill">
+                                                Top
+                                                <i class="bi bi-star ms-1"></i>
+                                            </div>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                                            <div class="ms-2 me-auto">
+                                                <div class="fw-bold">Example post title</div>
+                                                <a href="#" class="text-decoration-none text-secondary">See post</a>
+                                            </div>
+                                            <span class="badge bg-primary rounded-pill">New</span>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                                            <div class="ms-2 me-auto">
+                                                <div class="fw-bold">Example post title</div>
+                                                <a href="#" class="text-decoration-none text-secondary">See post</a>
+                                            </div>
+                                            <span class="badge bg-primary rounded-pill">New</span>
+                                        </li>
+                                    </ol>
+                                </div>
+                            </aside>
                         </div>
                     </div>
                 </div>
             </section>
         </main>
+
+        <footer class="footer bg-light">
+            <div class="container text-secondary py-5">
+                <div class="row">
+                    <div class="col-md-3">
+                        <p class="h3 fw-bold mb-3">My Blog Page</p>
+                        <p class="blockquote-footer fs-6 mb-3 fst-italic fw-light">Ricardo Silva</p>
+
+                        <p class="fs-5 fw-light mb-0">Follow Me:</p>
+                        <div class="d-flex gap-2 align-items-center mb-3">
+                            <i class="bi bi-instagram"></i>
+                            <i class="bi bi-github"></i>
+                            <i class="bi bi-twitter"></i>
+                            <i class="bi bi-facebook"></i>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="contact mb-4">
+                            <p class="h4 fw-bold mb-2">Contact Me</p>
+                            <p class="email mb-2">
+                                Email:
+                                <a class="text-decoration-none text-secondary fw-light" href="mailto: ricardo@example.com">ricardo@example.com</a>
+                            </p>
+                            <p class="number">
+                                Phone Number:
+                                <a class="text-decoration-none text-secondary fw-light" href="callto: 912345678">912345678</a>
+                            </p>
+                        </div>
+                        <div class="site-map">
+                            <p class="h4 fw-bold mb-2">Site Map</p>
+                            <div class="d-flex gap-2">
+                                <a class="text-decoration-none text-secondary" href="#">Home</a>
+                                <a class="text-decoration-none text-secondary" href="#">Archive</a>
+                                <a class="text-decoration-none text-secondary" href="#">FAQ's</a>
+                                <a class="text-decoration-none text-secondary" href="#">Archive</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 align-self-center">
+                        <div class="card">
+                            <div class="row g-0">
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title mb-0">Subscribe the newsletter</h5>
+                                        <p class="card-text fw-light">It's free, enter your email</p>
+                                        <form>
+                                            <div class="row g-2 mb-0">
+                                                <div class="col-9">
+                                                    <input type="email" class="form-control form-control-sm" id="exampleFormControlInput1" placeholder="name@example.com" />
+                                                </div>
+                                                <div class="col-3">
+                                                    <button type="submit" class="btn btn-sm btn-outline-secondary">Submit</button>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <img src="img/image1.jpg" class="img-fluid rounded-start" alt="..." />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid bg-secondary text-white text-center py-2">
+                <p class="fs-6 fw-bold mb-0">
+                    Copyright
+                    <i class="bi bi-c-circle"></i>
+                    Blog Page 2023
+                </p>
+            </div>
+        </footer>
         <!-- Icons -->
         <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
         <!-- Bootstrap -->
