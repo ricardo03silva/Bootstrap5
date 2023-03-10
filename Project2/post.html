@@ -62,8 +62,7 @@
                                 <!-- image -->
                                 <img src="img/office/office1.jpg" class="img-fluid" alt="post image" />
                             </div>
-                            <div class="col-md-8 mb-4">
-                                <!-- breadcrumb (category) / tags / title / author / date / small description-->
+                            <div class="col-md-8 mb-5">
                                 <nav aria-label="breadcrumb">
                                     <ol class="breadcrumb">
                                         <li class="breadcrumb-item"><a class="text-decoration-none" href="#">Home</a></li>
@@ -84,7 +83,7 @@
                                 <p class="blockquote-footer fs-5 mb-3 fst-italic fw-light">Ricardo Silva</p>
                                 <p class="fs-6 fw-light">In this article you will learn step by step how to become an expert React Developer. Try out and follow our guide !</p>
                             </div>
-                            <div class="col-md-12">
+                            <div class="col-md-12 mt-3">
                                 <!-- article text -->
                                 <p class="h5 mb-2 fw-bolder text-secondary">Step 1: Know the Basics</p>
                                 <p class="fs-5 lh-2 fw-light">
@@ -106,26 +105,103 @@
                     </article>
                 </div>
             </section>
-            <section class="related-content py-5">
-                <div class="container-fluid bg-light">
+            <section class="related-content">
+                <div class="container-fluid bg-light py-5">
                     <div class="container">
                         <div class="row">
-                            <!-- related posts -->
-                            <div class="col-md-4">
-                                <div class="card" style="width: 18rem">
-                                    <img src="..." class="card-img-top" alt="..." />
-                                    <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
+                            <div class="col-md-6">
+                                <!-- carousel with users comments -->
+                                <div id="carouselSlides" class="carousel carousel-dark slide" data-bs-ride="true">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <div class="card">
+                                                <div class="card-body d-flex flex-column align-items-center text-center mb-3">
+                                                    <img class="img-fluid mb-2" src="img/user.png" alt="user photo" style="width: 3rem" />
+                                                    <h6 class="card-subtitle mb-2 text-muted">John Smith</h6>
+                                                    <p class="card-text fw-light">Some quick example text to build on the card title</p>
+                                                    <div class="d-flex justify-content-center mb-2">
+                                                        <i class="bi bi-star-fill text-warning"></i>
+                                                        <i class="bi bi-star-fill text-warning"></i>
+                                                        <i class="bi bi-star-fill text-warning"></i>
+                                                        <i class="bi bi-star-fill text-warning"></i>
+                                                        <i class="bi bi-star-half text-warning"></i>
+                                                    </div>
+                                                    <p class="card-text fw-light">10 December 2022</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="card">
+                                                <div class="card-body d-flex flex-column align-items-center text-center mb-3">
+                                                    <img class="img-fluid mb-2" src="img/user.png" alt="user photo" style="width: 3rem" />
+                                                    <h6 class="card-subtitle mb-2 text-muted">John Smith</h6>
+                                                    <p class="card-text fw-light">Some quick example text to build on the card title</p>
+                                                    <div class="d-flex justify-content-center mb-2">
+                                                        <i class="bi bi-star-fill text-warning"></i>
+                                                        <i class="bi bi-star-fill text-warning"></i>
+                                                        <i class="bi bi-star-fill text-warning"></i>
+                                                        <i class="bi bi-star-fill text-warning"></i>
+                                                        <i class="bi bi-star-half text-warning"></i>
+                                                    </div>
+                                                    <p class="card-text fw-light">10 December 2022</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="card">
+                                                <div class="card-body d-flex flex-column align-items-center text-center mb-3">
+                                                    <img class="img-fluid mb-2" src="img/user.png" alt="user photo" style="width: 3rem" />
+                                                    <h6 class="card-subtitle mb-2 text-muted">John Smith</h6>
+                                                    <p class="card-text fw-light">Some quick example text to build on the card title</p>
+                                                    <div class="d-flex justify-content-center mb-2">
+                                                        <i class="bi bi-star-fill text-warning"></i>
+                                                        <i class="bi bi-star-fill text-warning"></i>
+                                                        <i class="bi bi-star-fill text-warning"></i>
+                                                        <i class="bi bi-star-fill text-warning"></i>
+                                                        <i class="bi bi-star-half text-warning"></i>
+                                                    </div>
+                                                    <p class="card-text fw-light">10 December 2022</p>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselSlides" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselSlides" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
                                 </div>
                             </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-8">
-                                <!-- carousel with users comments -->
-                            </div>
-                            <div class="col-md-4">
+                            <div class="col-md-6">
                                 <!-- form to submit comment -->
+                                <div class="card">
+                                    <div class="card-body">
+                                        <form>
+                                            <div class="row g-2 mb-3">
+                                                <div class="col-md-4">
+                                                    <label for="InputName" class="form-label">Full Name</label>
+                                                    <input type="text" class="form-control" id="InputName" />
+                                                </div>
+                                                <div class="col-md-8">
+                                                    <label for="InputEmail" class="form-label">Email address</label>
+                                                    <input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp" />
+                                                </div>
+                                                <div class="col-md-12">
+                                                    <label for="exampleFormControlTextarea1" class="form-label">Leave your comment here:</label>
+                                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <label for="rating" class="form-label">Rate the post (0-5)</label>
+                                                    <input type="range" class="form-range" min="0" max="5" id="rating" />
+                                                </div>
+                                                <button type="submit" class="btn btn-secondary">Submit</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
